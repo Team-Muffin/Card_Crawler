@@ -85,7 +85,7 @@ while total_parsed < 100:
         total_parsed += 1
 
         # csv 저장
-        with open('./card2.csv', 'w', encoding='utf-8', newline='') as f:
+        with open('./card.csv', 'w', encoding='utf-8', newline='') as f:
             csvWriter = csv.writer(f)
             for card_data in card_data_lst:
                 csvWriter.writerow(card_data)
